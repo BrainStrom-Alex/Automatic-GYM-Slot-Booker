@@ -31,7 +31,7 @@ email_input.send_keys("testing.brainstrom@gmail.com")
 
 password_input = wait.until(ec.element_to_be_clickable(driver.find_element(By.ID, value="password-input")))
 email_input.clear()
-password_input.send_keys("Ravish@07")
+password_input.send_keys("abc")
 
 submit_button = driver.find_element(By.ID, value="submit-button")
 submit_button.click()
